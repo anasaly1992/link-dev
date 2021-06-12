@@ -1,0 +1,41 @@
+
+
+
+  <div class="custom-background">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/']">Home</a></li>
+            <li class="breadcrumb-item active" [routerLink]="['/news']">News</li>
+            <li class="breadcrumb-item active" aria-current="page">News Details</li>
+
+          </ol>
+        </nav>
+        <h2>News Details</h2>
+        <div>
+            <div class="new-image">
+                <img [src]="article.urlToImage">
+            </div>
+            <div class="new-details">
+            <div class="body">
+            <div class="headers">
+                <p class="category"> Category Name</p>
+                <h1 class="title">President El Sisi Unveils "Egypt Vision 2030"</h1>
+                <span class="icons">
+                    <i class="pi pi-heart"></i>
+                    <i class="pi pi-share-alt"></i>
+                </span>
+                <div class="paragraph">
+                    <p>
+                        {{article.content}}
+                    </p>
+                </div>
+           
+            </div>
+            </div>
+        </div>
+        </div>
+    
+    </div>
+  
+    </div>

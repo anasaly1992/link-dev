@@ -1,0 +1,150 @@
+.how-helped-section {
+    width: 100%;
+    height: 700px;
+    background-image: url('../../../assets/images/how-helped.jpg');
+    background: url('../../../assets/images/how-helped.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+@media screen and (max-width: 991px){
+    .how-helped-section {
+        height: 2000px;
+    }
+}
+
+@media screen and (max-width: 626px){
+    .how-helped-section {
+        height: 2060px;
+    }
+}
+
+@media screen and (max-width: 553px){
+    .how-helped-section {
+        height: 2100px;
+    }
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .7;
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.content{
+    position: relative;
+    font-weight: 100;
+}
+/* .rotate-square-shapes {
+    display: flex;
+    justify-content: center;
+} */
+.rotate-square-shapes {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+.rotate-square-shapes .col-lg-3 {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    .rotate-square-shapes .col-lg-3 {
+        margin-block: 40px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rotate-square-shapes2 .col-lg-4 {
+        margin-block: 40px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .rotate-square-shapes2{
+        width: 75%;
+    }
+}
+.rotate-square-shapes .shape{
+height: 160px;
+width: 160px;
+float: left;
+border:3px solid #fff;
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+
+}
+
+.rotate-square-shapes .shape:hover{
+  background-color: #04b904;
+  border-color:#04b904 ;
+    }
+    .rotate-square-shapes2 .shape:hover{
+        background-color: #04b904;
+        border-color: #04b904;
+    }
+
+
+.rotate-square-shapes2 {
+    width: 57%;
+    margin: 0 auto;
+
+}
+
+.rotate-square-shapes2 .shape{
+height: 160px;
+width: 160px;
+float: left;
+border:3px solid #fff;
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+
+}
+
+.rotate-square-shapes2 .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.shape .pi,.shape p {
+    color: #fff;
+    -ms-transform: rotate(315deg);
+    transform: rotate(315deg);
+    font-size: 35px;
+}
+
+.shape p {font-size:20px;position: absolute;top: 40%;left: 24%;}
+.pi-plus {
+    display: block;
+    font-size: 17px !important;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+.shape .first-icon {
+    font-size: 35px;
+    position: absolute;
+    top:15%;
+    left: 15%;
+}

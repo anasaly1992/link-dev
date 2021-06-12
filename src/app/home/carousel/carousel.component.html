@@ -1,0 +1,14 @@
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide *ngFor="let img of images">
+  <div class="overlay"></div>
+
+    <div class="picsum-img-wrapper" >
+      <img [src]="img" alt="Random first slide" class="carousel-img">
+    </div>
+    <div class="carousel-caption">
+      <h3>All Foundation</h3>
+      <p>is focused on inspiring the next generation of kids<br> Health Care Professionals.</p>
+      <button type="button" class="btn btn-success">Download Now</button>
+    </div>
+  </ng-template>
+  <ngb-carousel>

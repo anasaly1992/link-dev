@@ -1,0 +1,29 @@
+.carousel-img {
+    height: 100%;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #07416f;
+    opacity: .5;
+}
+.carousel-caption{
+    margin-bottom: 80px;
+}
+
+
+
+.picsum-img-wrapper {
+    width: 100%;
+    height: 500px;
+
+}
+
+.btn-success {
+    color: #ffffff !important;
+    background-color: #ce8808 !important;
+    }

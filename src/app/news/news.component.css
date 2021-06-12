@@ -1,0 +1,91 @@
+/* .container{
+    margin: 25px auto;
+    margin-bottom: 0;
+} */
+h5 {
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-lg-4 img {
+    height: 200px;
+}
+.card{
+    width: 95%;
+    margin: 7px auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.icons{
+    float: right;
+}
+.icons i {margin: 0 5px;font-size: 22px;color: #ce8808;}
+.card-title {
+    clear: both;
+}
+.badge {
+    color: black;
+    background-color: #6c757d30;
+    padding: 6px 17px;
+    font-weight: normal;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.card-text{
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    color:#808080
+}
+.date{display: flex;align-items: center;}
+.date i{
+color: #ce8808;
+}
+.date span{
+    font-weight: bold;
+    color: gray;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.custom-background{
+    background-color: #e9ecef;
+}
+
+.breadcrumb {
+    padding-inline: 0;
+}
+
+ul .page-item {
+    margin-inline: 3px;
+    color: #000000;
+}
+
+ul .page-item .page-link {
+    color: #000000;
+    border-radius: 4px;
+}
+ul .page-item.active .page-link {
+    background-color: orange;
+    border: none;
+    color: #ffffff;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,43 @@
+<!-- <p-menubar>
+   
+    <div class="relative nav-item">
+        <input  [ngClass]="{show: !searchInput}" type="text" pInputText placeholder="Search" class="search-input">
+        <i class="pi pi-search absolute" (click)="toggleSearchInput()"></i>
+    </div>
+    <div>
+        <i class="pi pi-bell nav-item"></i>
+    </div>
+    <div>
+        <i class="pi pi-cog nav-item"></i>
+    </div>
+</p-menubar> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"><img src="../../assets/images/logo/link-dev.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink] = "['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink] = "['/news']">News</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="search-bar">
+        <input [ngClass]="{shows: !searchInput}" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <i class="pi pi-search absolute" (click)="toggleSearchInput()"></i>
+      </div>
+      </form>
+      <div class="form-inline my-2 my-lg-0">
+        <div class="search-bar">
+        <i class="pi pi-bell"></i>
+      </div>
+    </div>
+    </div>
+  </nav>
